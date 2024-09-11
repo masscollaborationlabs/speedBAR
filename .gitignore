@@ -54,20 +54,41 @@ flycheck_*.el
 
 # End of https://www.toptal.com/developers/gitignore/api/emacs
 
-# Created by https://www.toptal.com/developers/gitignore/api/elisp
-# Edit at https://www.toptal.com/developers/gitignore?templates=elisp
+# Created by https://www.toptal.com/developers/gitignore/api/c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++
 
-### Elisp ###
-# Compiled
-*.elc
+### C++ ###
+# Prerequisites
+*.d
 
-# Packaging
-.cask
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Backup files
-*~
+# Precompiled Headers
+*.gch
+*.pch
 
-# Undo-tree save-files
-*.~undo-tree
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# End of https://www.toptal.com/developers/gitignore/api/elisp
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# End of https://www.toptal.com/developers/gitignore/api/c++
